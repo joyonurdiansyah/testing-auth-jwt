@@ -19,3 +19,18 @@ This API handles user authentication, including registration, login, and profile
     "password": "password123",
     "password_confirmation": "password123"
   }
+  
+- **Response: On success, returns a 201 Created status:**
+  ```json
+  {
+  "message": "berhasil melakukan pendaftaran akun",
+  "user": {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "id": 1,
+    "created_at": "2024-09-28T12:34:56.000000Z",
+    "updated_at": "2024-09-28T12:34:56.000000Z"
+  }
+}
+
+
