@@ -21,10 +21,10 @@ This API handles user authentication, including registration, login, and profile
   "password_confirmation": "password123"
 } 
 
-2.  Login Endpoint (loginkan)
-- **Method:** POST
-- **URL:** `http://127.0.0.1:8000/api/auth/register`
-- **Description:** This endpoint handles user login by accepting login credentials (email and password).
+### 1. Registration Endpoint (regis)
+* **Method:** POST
+* **URL:** `http://127.0.0.1:8000/api/auth/register`
+* **Description:** This endpoint handles user registration by accepting a JSON payload with user information.
 
 #### Request Example:
 ```json
