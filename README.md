@@ -19,7 +19,7 @@ This API handles user authentication, including registration, login, and profile
   "email": "john@example.com",
   "password": "password123",
   "password_confirmation": "password123"
-}
+}```json
 
 ### 1. Registration Endpoint (regis)
 - **Method:** POST
